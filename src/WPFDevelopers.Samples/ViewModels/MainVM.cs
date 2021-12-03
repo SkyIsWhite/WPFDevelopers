@@ -88,6 +88,9 @@ namespace WPFDevelopers.Samples.ViewModels
                 case MenuEnum.Navigation3D:
                     ControlPanel = new AnimationNavigationBar3DExample();
                     break;
+                case MenuEnum.BaseControl:
+                    ControlPanel = new BaseControlExample();
+                    break;
                 case MenuEnum.Loading:
                     ControlPanel = new LoadingExample();
                     break;
@@ -191,6 +194,12 @@ namespace WPFDevelopers.Samples.ViewModels
                     break;
                 case MenuEnum.LogoAnimation:
                     ControlPanel = new LogoAnimationExample();
+                    break;
+                case MenuEnum.Thermometer:
+                    ControlPanel = new ThermometerExample();
+                    break;
+                case MenuEnum.Drawing:
+                    ControlPanel = new DrawingExample();
                     break;
                 //将TaskbarInfo放到最后
                 case MenuEnum.TaskbarInfo:

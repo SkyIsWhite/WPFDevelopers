@@ -11,6 +11,7 @@ namespace WPFDevelopers.Samples.Helpers
     public enum MenuEnum
     {
         Navigation3D,
+        BaseControl,
         Loading,
         CutImage,
         WeChatAudio,
@@ -44,7 +45,9 @@ namespace WPFDevelopers.Samples.Helpers
         RoundPicker,
         LineChart,
         LogoAnimation,
+        Thermometer,
         LoginWindow,
+        Drawing,
         TaskbarInfo,
     }
 }

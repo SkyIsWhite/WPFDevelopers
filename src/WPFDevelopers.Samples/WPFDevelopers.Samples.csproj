@@ -66,6 +66,9 @@
     <Compile Include="ExampleViews\AnimationWeChatExample.xaml.cs">
       <DependentUpon>AnimationWeChatExample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ExampleViews\BaseControlExample.xaml.cs">
+      <DependentUpon>BaseControlExample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ExampleViews\BasicBarChartExample.xaml.cs">
       <DependentUpon>BasicBarChartExample.xaml</DependentUpon>
     </Compile>
@@ -92,6 +95,9 @@
     </Compile>
     <Compile Include="ExampleViews\DashboardExample.xaml.cs">
       <DependentUpon>DashboardExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ExampleViews\DrawingExample.xaml.cs">
+      <DependentUpon>DrawingExample.xaml</DependentUpon>
     </Compile>
     <Compile Include="ExampleViews\LineChartExample.xaml.cs">
       <DependentUpon>LineChartExample.xaml</DependentUpon>
@@ -168,6 +174,9 @@
     <Compile Include="ExampleViews\TaskbarItemInfoExample.xaml.cs">
       <DependentUpon>TaskbarItemInfoExample.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ExampleViews\ThermometerExample.xaml.cs">
+      <DependentUpon>ThermometerExample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ExampleViews\ThumbDragAndAngleExample.xaml.cs">
       <DependentUpon>ThumbDragAndAngleExample.xaml</DependentUpon>
     </Compile>
@@ -196,6 +205,7 @@
     <Compile Include="Helpers\RelayCommand.cs" />
     <Compile Include="Models\MenuItemModel.cs" />
     <Compile Include="Models\NavigateMenuModel.cs" />
+    <Compile Include="ViewModels\DrawingExampleVM.cs" />
     <Compile Include="ViewModels\MainVM.cs" />
     <Compile Include="ViewModels\PaginationExampleVM.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
@@ -204,6 +214,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ExampleViews\AnimationWeChatExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ExampleViews\BaseControlExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -240,6 +254,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ExampleViews\DashboardExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ExampleViews\DrawingExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -377,6 +395,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ExampleViews\ThermometerExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ExampleViews\ThumbDragAndAngleExample.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -477,9 +499,6 @@
     <Resource Include="Images\Breathe\2.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="WPFDevelopers.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\Chat\Left.jpg" />
     <Resource Include="Images\Chat\Right.jpg" />
     <Resource Include="Images\Chat\UserImages\jingtao.png" />
@@ -512,7 +531,9 @@
     <Resource Include="ExampleViews\LoginWindow\CustomStyle\Image\Background.png" />
     <Resource Include="ExampleViews\LoginWindow\CustomStyle\Image\Logo.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="WPFDevelopers.ico" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\ZooSemy\0.png" />
     <Resource Include="Images\ZooSemy\1.png" />
